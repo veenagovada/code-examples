@@ -1,0 +1,428 @@
+/*body styling*/
+
+
+body{
+	margin: 0px auto;
+	padding:0;
+	width:100%;
+	
+}
+/*end of body styling*/
+
+/*header styling*/
+
+header{
+	background-image: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), url('images/sofa2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	padding:150px 0px;
+	color:white;
+}
+	img{
+		border-radius: 50%
+	}
+
+	/* header text styling*/
+
+		p#logo_name{
+			font-family: sans-serif, arial;
+			padding-top: 10px;
+			letter-spacing: 5px;
+			font-size:20px;
+		}
+		header span{
+			font-family: 'Arizonia', 'Allura', 'Calligraffitti', 'Parisienne';
+			font-size:100px;
+			transform: rotate(-7deg);
+			display:block;
+			margin-top: -20px;
+			letter-spacing: 10px;
+		}
+
+	/* end of header text styling*/
+
+/* end of header styling*/
+
+/*main navigation styling*/
+
+div#nav{
+	text-align: center;
+	background-color: #000000;
+	font-family: sans-serif;
+	font-size:  14px;
+	}
+
+	div#inner_nav{
+		display: inline-block;
+				}
+
+	div#inner_nav ul
+		{
+		list-style:none;
+		position: relative;
+		top:-5px;
+		}
+
+	div#inner_nav ul li
+		{
+		display: inline;
+		padding:0px 30px;
+		
+		}
+
+	div#inner_nav ul a
+		{
+		color:#a9a9a9;
+		text-decoration: none;
+
+		}
+
+	div#inner_nav ul a:hover
+		{
+		font-weight: bold;
+		color: white;
+		}
+
+	div#inner_nav ul li
+		{
+		display: inline;
+		}
+
+	div#nav img
+		{
+		position:relative;
+		top:8px;
+		padding:0px 30px;
+		margin-left: 45px;
+	}
+
+	div#inner_nav ul i
+		{
+		padding-right: 5px;
+
+		}
+
+
+/*end of main navigation styling*/
+
+/*content1 styling*/
+
+div#content1{
+	background-color:#a9a9a9;
+	text-align: center;
+	padding-bottom: 50px;
+	font-family: sans-serif;
+
+}
+		/*text and logo styling*/
+
+			div#text p{
+				font-family: 'Arizonia', 'Allura', 'Calligraffitti', 'Parisienne';
+				font-size: 50px;
+				padding-top: 30px;
+
+			}
+			div#text hr{
+				
+				margin-top: -30px;
+				width:25%;
+				border-color: #000000;
+			}
+			div#text img{
+				position: relative;
+				top:-20px;
+			}
+
+		/* end of text and logo styling*/
+
+		/* content1 navigation styling with select*/
+
+			div#nav2 {
+				padding-bottom: 30px;
+
+			}
+
+			div#nav2 div{
+				display: inline-block;
+				padding:0 10px;
+			}
+			div#nav2 div select{
+				padding:10px 30px;
+				background-color: black;
+				color:white;
+				margin-top:-10px;
+				font-size:12px;
+				
+			}
+
+			div#nav2 div p{
+				font-size:12px;
+				
+			}
+			div#nav2 div a{
+				color:black;
+				background-color: white;
+				text-decoration: none;
+				padding:10px 60px;
+				font-size: 12px;
+				font-weight: bold;
+			}
+
+		/* end of content1 navigation styling with styling*/
+
+/*end of content1 styling*/
+
+/*content2 styling*/
+	
+	div#content2{
+		background-color: white;
+		font-size: 14px;
+		padding-bottom: 30px;
+
+	}
+		/*house image and content part styling*/
+
+			div#content2 div#data{
+				display:inline-block;
+				margin-left: 10px;
+			
+			}
+			div#data div#data_text {
+				background-color: #ffffff;
+				border: 1px solid #000;
+		    	border-top: none;
+		    	padding: 0px 20px 20px 20px;
+		    	margin-top:-25px;
+		  		
+			}
+			div#data div#data_text p{
+				background-color:#e2e2e2;
+				padding:20px 3px 30px;
+			}
+
+			div#data div#img img{
+				border-radius: 0%;
+				background-color: black;
+				padding:15px;
+				padding-bottom: 0px;
+						
+			}
+			div#data a {
+				position: relative;
+				top:-5px;
+				text-decoration: none;
+				color:white;
+				background-color: black;
+				padding:20px 10px;
+				border-radius: 50%;	
+			}
+
+		/* end of house image and content part styling*/
+			
+	div#content2 p button{
+			margin: 30px 0;
+			background-color: white;
+			border:1px solid black;
+			padding:10px 20px;
+			font-size: 14px;
+			
+		}
+
+
+/*----banner styling---*/
+
+div#banner img{
+	border-radius: 0%;
+	}
+
+	/*  text and tweeter logo styling*/
+		
+		div#text p{
+				font-family: 'Arizonia', 'Allura', 'Calligraffitti', 'Parisienne';
+				font-size: 50px;
+				margin-top: 0px;
+				}
+			div#text hr{
+				
+				margin-top: -30px;
+				width:25%;
+				border-color: #000000;
+			}
+			div#text i{
+				position: relative;
+				background-color: black;
+				color: white;
+				padding: 10px;
+				border-radius: 50%;
+				top:-25px;
+			}
+
+	/* end of text and tweeter styling*/
+
+		/*tweeter content styling--*/
+		div#banner div#tweet{
+			display:inline-block;
+			font-size: 14px;
+			font-family: sans-serif;
+			line-height: 20px;
+			padding:0 30px 0 0;
+			margin:  0 10px 0 10px;
+
+		}
+		div#tweet div{
+			display:inline-block;
+			margin-right: 10px;
+			text-align: left;
+
+		}
+		 div#tweet p a{
+			color: #009de0;
+		}
+		 div#tweet ul{
+			color:#b6b6b6;
+			list-style: none;
+			text-align: left;
+		}
+		 div#tweet li{
+			display:inline-block;
+			padding: 0 20px 0 0;
+		}
+		div#tweet ul a{
+			text-decoration: none;
+			color:#b6b6b6;
+			}
+		div#tweet p{
+			float:right;
+			text-align: left;
+		}
+		div#tweet img{
+			padding-top: 15px;
+			padding-right: 10px;
+		}
+		/*end of tweeter content styling--*/
+	/*end of banner styling*/
+
+/*end of content2 styling*/
+
+
+/*--footer styling--*/
+footer{
+	background-color: black;
+	font-family: sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color:#a9a9a9;
+	padding-top: 20px;
+}
+footer div{
+		display: inline-block;
+		text-align: left;
+		padding: 0 30px;
+}
+footer div ul{
+	list-style: none;
+}
+footer div li{
+padding:5px 0;
+}
+footer div ul a{
+	color:#a9a9a9;
+	text-decoration:none;
+}
+footer div li:first-child{
+	font-family: 'Arizonia', 'Allura', 'Calligraffitti', 'Parisienne';
+	font-size: 20px;
+	border-bottom:1px solid #a9a9a9;
+	width:80px;
+	margin-bottom: 10px;
+}
+footer hr{
+	margin-top:20px;
+	width:25%;
+}
+footer div#social{
+	padding: 0px 5px 40px 5px;
+	font-size: 14px;
+	background-color: black;
+	position: relative;
+	top:-15px;
+}
+footer a{
+	color:#a9a9a9;
+	padding:0 5px;
+}
+
+/*---end of footer styling--*/
+
+/*--copy right styling--*/
+
+div#last{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 10px;
+	padding-top:10px;
+	}
+/*--end of copy right styling--*/
+
+/*media querries*/
+
+
+@media (min-width:320px) and (max-width: 780px)	{
+	
+	div#nav{
+		padding-top: 5px;
+		padding-bottom: 2px;
+	}
+	
+	div#nav div{
+	display: inline;
+	}
+
+	div#inner_nav ul li{
+	display: inline;
+	padding:0px 10px;
+	}
+
+	div#nav img{
+	margin-bottom:25px;
+
+	}
+	div#nav2 div {
+		margin-bottom:20px;
+	}
+	div#data{
+		margin-bottom:30px;
+	}
+	div#tweet p{
+		text-align: center;
+		}
+	div#tweet li{
+		text-align:center;
+		display:block;
+	}
+
+	div#tweet img{
+			padding-top: 15px;
+			margin-left:30px;
+			
+		}
+	footer {
+		text-align: left;
+	}
+	footer hr{
+	width:50%;
+}
+footer div#social{
+		left:30%;
+	}
+div#inner_nav ul li
+		{
+		
+		padding:5px;
+		
+		}
+
+
+}
