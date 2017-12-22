@@ -1,0 +1,32 @@
+.container-fluid{
+		color:#E7DCD8;
+}
+
+
+.container .navbar a{
+	color:#E7DCD8;
+	border-radius:3px;
+	font-size: 16px;
+
+}
+
+.container .navbar a:hover{
+	color:#000000;
+}
+	
+.text-right h1{
+	font-size:50px;
+}
+.col-sm-4{
+padding-bottom: 20px;
+}
+.col-sm-2 .navbar{
+	padding:0px;
+}
+footer .row .col-sm-2 a{
+	color:#E7DCD8;
+	text-decoration: none;
+}
+footer .row div{
+	margin-right: 40px;
+}
