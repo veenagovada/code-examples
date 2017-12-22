@@ -1,0 +1,122 @@
+
+
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<div class="conatiner">
+<nav>
+<ul>
+	<li><a href=#>Home</a></li>
+	<li><a href=#>Contact</a></li>
+	<li><a href=#>Address</a>
+		<ul>
+			<li><a href=#>Home</a></li>
+			<li><a href=#>Contact</a>
+				<ul>
+					<li><a href=#>Home</a></li>
+					<li><a href=#>Contact</a></li>
+					<li><a href=#>Address</a></li>
+					<li><a href=#>About Us</a>
+						<ul>
+							<li><a href=#>Home</a></li>
+							<li><a href=#>Contact</a></li>
+							<li><a href=#>Address</a></li>
+							<li><a href=#>About Us</a></li>
+						</ul>
+
+
+
+					</li>
+				</ul>
+
+			</li>
+			<li><a href=#>Address</a></li>
+			<li><a href=#>About Us</a></li>
+		</ul>
+	</li>
+	<li><a href=#>About Us</a></li>
+</ul>
+
+
+
+</nav>
+
+</div>
+
+<style>
+
+.container{
+	width:100%
+	margin: 0 auto;
+	}
+
+
+nav{
+	margin:50px 0;
+	background-color:gray;
+}
+
+
+nav ul{
+	margin:0;
+   	padding:0;
+	list-style:none;
+	position:relative;
+	}
+
+nav ul li {
+	
+	background-color:gray;
+	display:inline-block;
+	}
+nav a{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	line-height:60px;
+	padding:0 10px;
+display:block;
+
+}
+
+nav a:hover
+{
+	background-color:black;
+
+}
+
+nav ul ul
+{
+display:none;
+position:absolute;
+top:60px;
+}
+
+nav ul li:hover> ul
+{
+
+display:inline-block;
+`}
+nav ul ul li
+{
+position:relative;
+
+display:list-item;
+float:none;
+width:170px;
+}
+nav ul ul ul li{
+position:relative;
+left:170px;
+top:-60px;
+}
+
+
+
+	
+</style>
+
+</body>
+</html>
