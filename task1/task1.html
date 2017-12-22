@@ -1,0 +1,228 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>car repair</title>
+</head>
+<body>
+	<div class="content">
+		<div class="firstpart">
+			<img src="logo.png" width="200px" height="50px" alt="logo"/>
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">ABOUT US</a></li>
+				<li><a href="#">SERVICES</a></li>
+				<li><a href="#">INSURANCE</a></li>
+				<li><a href="#">CONTACT</a></li>
+
+			</ul>
+		</div>	
+		
+
+	
+		<div class= "secondpart">
+			
+			<ul>
+
+			<li>
+				<p>MECHANICS</p>
+				<p class="text">I'm a paragraph. Click here to add<br>your own text and edit me.</p>
+			</li>
+
+			<li>
+			
+				<p>CAR ACCESSORIES</p>
+				<p class="text">I'm a paragraph. Click here to add<br>your own text and edit me.</p>
+		
+			</li>
+			
+			<li>
+			
+				<p>BREAKDOWN SERVICES</p>
+				<p class="text">I'm a paragraph. Click here to add<br>your own text and edit me.</p>
+			</li>
+			
+			</ul>
+
+		</div>
+	</div>
+</body>
+
+
+
+<style type="text/css">
+html, body{
+	background-image: url('car.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: arial;
+	max-width:100%;
+	height:100%;
+	margin:0 auto;
+	padding:0;
+
+	}
+
+div.content{
+	min-height:100%;
+	position:relative;
+	
+}
+
+div.firstpart{
+background-color: #fff;
+margin:20px 0px;
+padding:5px 0px;
+}
+
+.firstpart img{
+
+	float:left;
+	margin-left:150px;
+}
+
+.firstpart ul{
+
+	list-style: none;
+	clear: right;
+	text-align: center;
+	
+}
+
+.firstpart li{
+	display: inline-block;
+	padding:0 40px;
+	}
+
+.firstpart a{
+	text-decoration: none;
+	color:#000;
+}
+
+.firstpart a:hover
+{
+	color:red;
+}
+.firstpart a:active{
+	color:red;
+}
+
+
+.secondpart{
+	
+	background-color:#cc0000;
+	color:#fff;
+	position:absolute;
+	width:100%;
+	height:20%;
+	margin-bottom: -30px;
+	bottom:0;
+}
+
+.secondpart ul
+{
+	list-style:none;
+	text-align: center;
+}
+.secondpart li{
+	text-align: left;
+	display:inline-block;
+	border-right:  1px solid #fff;
+	padding-right:100px;
+	padding-left:30px;
+
+}
+.secondpart li:last-child
+{
+	border-right:none;
+}
+.text{
+	font-size:12px;
+}
+
+
+@media (max-width:1120px){
+ 
+ .firstpart ul{
+  width:100%;
+  text-align: left;
+ }
+
+ .firstpart li{
+
+ 
+  display: inline-block;
+  padding:0 20px;
+ }
+
+ .firstpart img {
+     float: none;
+     margin-left: 68px;
+ }
+
+}
+
+@media (max-width:991px){
+
+}
+@media (max-width:768px){
+ .firstpart ul{
+  width:100%;
+  text-align: left;
+ }
+
+ .firstpart li{
+
+ font-size:10px;
+  display: block;
+  padding:0 20px;
+ }
+
+ .firstpart img {
+     float: none;
+     margin-left: 68px;
+ }
+
+
+}
+
+@media (max-width:468px){
+.firstpart ul{
+  width:100%;
+  text-align: left;
+ }
+
+ .firstpart li{
+  display: block;
+  padding:0 40px;
+ }
+ .firstpart img {
+     float: none;
+     margin-left: 68px;
+ }
+
+
+.secondpart ul
+{
+	list-style:none;
+	text-align: center;
+}
+.secondpart li{
+	font-size:10px;
+	text-align: left;
+	display:block;
+	border-right:  1px solid #fff;
+	padding-right:100px;
+	padding-left:30px;
+
+}
+
+
+}
+
+@media (max-width:320px){
+/*optional*/
+}
+	
+</style>
+</html>
