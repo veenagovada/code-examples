@@ -1,0 +1,31 @@
+.header-nav li{
+	
+	font-size: 14px;
+}
+.menu li a:hover{
+	background-color: #ffffff;
+}
+ button{
+	background-color: #F88D38; 
+	
+	padding: 5px 20px;
+	margin-left: 40px;
+	border:1px solid #D86B16;
+	border-radius: 100px ;
+   	
+}
+input{
+	margin:15px;
+
+}
+form button{
+	background-color: #8AAF2A; 
+	margin-top: 30px;
+	font-size:20px;
+	padding: 10px ;
+	border:none;
+	border-radius: 100px ;
+	width:400px;
+	margin-left: -60px;
+   	
+}
