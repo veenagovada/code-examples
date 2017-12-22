@@ -1,0 +1,645 @@
+
+/* header part styling */
+/* logo, mail and tel number styling */
+body, html{
+	overflow-x:hidden;
+}
+#logo{
+	margin-top:30px;
+}
+#logo ul{
+	margin-top:10px;
+	margin-right: 60px;
+}
+#logo ul li a{
+color:black; 
+font-size: 18px;
+}
+
+#logo ul li #tel
+{
+color:black;
+font-weight:bold;
+font-size: 20px;
+}
+#logo ul li a span{
+
+color:#C6985D;
+
+}
+#logo img{
+	width:300px;
+	height:70px;
+}
+/* end of logo, mail and tel number styling */
+
+/* main nav styling */
+
+#main-menu{
+	background-color: #002945;
+	padding: 10px;
+	border-bottom: 5px solid #C6985D; 
+}
+
+#main-menu button span{
+	background-color:#ffffff;
+
+}
+#main-menu a{
+color:#FFFCFF;
+background-color: #002945;
+font-size: 16px;
+border-left: 1px solid #FFFCFF;
+padding: 3px 20px;
+}
+#main-menu nav ul li:first-child a{
+	border:none;
+}
+
+#main-menu nav ul li:last-child a{
+	background-color:#C6985D; 
+	margin-left: 10px;
+	border-left:none;
+	font-size: 14px;
+	padding: 3px 25px;
+	border-radius:3px;
+	}
+
+/* end of main nav styling */
+/* end of header styling */
+
+
+/*banner styling */
+
+#banner{
+	background-image:url('images/banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#banner .row{
+	margin-top:20px;
+}
+#banner #wrapper{
+	margin:0 20px;
+}
+#banner #wrapper .heading{
+	text-align: center;
+	background-color: #C6985D;
+}
+
+#banner #wrapper .heading h2{
+	padding: 10px 0; 
+	color:white;
+}
+#wrapper #form-wrapper{
+	background-color: #302F35;
+	opacity:0.8;
+	margin-top: -10px;
+	padding: 5px 25px 5px 25px;
+}
+#form-wrapper .tel-text{
+	padding-left: 0px;
+}
+#form-wrapper .tel-text p{
+	color:white;
+	}
+#form-wrapper .tel-text p span{
+	font-size:20px;
+	letter-spacing: 1px;
+}
+.tel-number{
+	text-align: right;
+	padding-right: 0px;
+	margin-top: 10px;
+}
+.tel-number a{
+color:white;
+background: linear-gradient(to bottom, #9ec3db 0%,#9ec3db 15%,#0b67a5 38%,#0b67a5 100%);
+padding: 10px 30px;
+ font-size: 20px;
+ text-decoration: none;
+}
+.tel-number a i{
+	padding-right:5px;
+}
+.form-group input{
+margin-bottom: 10px;
+padding: 5px 30px;
+}
+.form-group input[type=text]{
+	background-image: url('images/user.png');
+	background-repeat:no-repeat; 
+	background-position:7px 8px;
+	border-radius: 0;
+}
+.form-group input[type=number]{
+	background-image: url('images/phone.png');
+	background-repeat:no-repeat;
+	 background-position:7px 8px;
+	 border-radius: 0;
+}
+form{
+	padding-bottom: 20px;
+}
+form a{
+	background-color: #C6985D; 
+	color:white;
+	padding:10px 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+form select{
+	width: 100%;
+  padding: 8px 30px;
+    border: none;
+    background-image: url('images/time.png');
+    background-repeat:no-repeat;
+	 background-position:7px 8px;
+}
+
+/* tax division styling in banner */
+
+.tax-division {
+	color:white;
+	
+}
+
+.tax-division  h2{
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #002945;
+	width: 100%;
+	padding: 20px;
+
+
+}
+.tax-division  h2:before{
+	content: " ";
+    position: absolute;
+    width: 27%;
+    height: 50%;
+    opacity: 1;
+    border-top: 4px solid #d4a261;
+    border-left: 4px solid #d4a261;
+    left: 15px;
+    top:20px;
+	}
+.tax-division  p{
+	
+	font-size: 12px;
+	color:#4B4B4B;
+	padding: 10px 20px;
+}
+.tax-division a{
+	background-color: #C6985D;
+	padding: 5px 20px;
+	color:white;
+	font-weight:  bold;
+}
+.tax-wrapper{
+
+	background-color: white!important;
+	padding-bottom: 20px;
+	text-decoration: none;
+	
+}
+
+/* 
+*end of tax division styling in banner 
+*/
+
+/* 
+*end of banner styling 
+*/
+
+/* styling of tax text part */
+
+#text{
+	background-image: url('images/bg.jpg');
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+
+}
+
+#text h1{
+font-size: 30px;
+color:#002A4A;
+}
+
+#text h1 span{
+font-weight: bold;
+}
+
+#text p{
+font-size: 16px;
+color:white;
+
+}
+
+.text-wrapper{
+	position:relative;
+	top:50px;
+	height: 600px;
+}
+
+/* end of styling of tax text part */
+
+/* styling of check box division */
+
+#checkbox-division{
+	background-image: url('images/flower.jpg');
+	
+}
+
+#checkbox-division-wrapper{
+	padding-top: 30px;
+	background-color: #1A3A51;
+	opacity:0.9;
+}
+
+#checkbox-text{
+	text-align: center;
+	font-size:16px;
+}
+#checkbox-text h3{
+	font-weight: bold;
+	color:#C6985D;
+	padding-bottom:20px;
+}
+#checkbox-text p{
+	color:white!important;
+}
+#checkbox-text p span{
+	color:#C6985D;
+}
+#checkbox-division-wrapper .row{
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+#checkbox-division-wrapper .row .col-sm-4{
+	font-size:16px;
+}
+#checkbox-division-wrapper .row .col-sm-4 p{
+color:white;
+}
+#checkbox-division-wrapper .row .col-sm-4 p i{
+	color:#C6985D; padding-right: 5px;font-size: 20px;
+}
+/* end of styling of check box division */
+
+
+/* latest news division styling */
+
+#latest-news-wrapper{
+	padding:20px 0 10px 0;
+}
+
+#latest-news-wrapper h1{
+	font-size:30px;
+	color:#002A4A;
+}
+#latest-news-wrapper p{
+	color:#4D4D4D; 
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+#latest-news-wrapper h1 span{
+	font-weight: bold;
+}
+
+#latest-news-wrapper .col-sm-4 h4{
+	color:#C6985D;
+	font-size:16px;
+	font-weight: bold;
+}
+#latest-news-wrapper .col-sm-4 p{
+	 color:#4d4d4d;
+	 font-size: 16px;
+}
+/* end of latest news styling */
+
+/* styling of testimony division */
+
+#testimony{
+	background-image:url('images/bg2.jpg');
+}
+#testimony .col-sm-4{
+ 	color:white;
+ 	margin: 30px 0;
+}
+#testimony .col-sm-4 h2{
+	font-size: 16px; font-weight: bold;
+}
+#testimony .col-sm-4 p{
+	font-size: 14px;
+	font-style:  italic;
+}
+#testimony .col-sm-4 h3{
+	font-size: 16px;
+	font-weight: bold;
+	
+}
+#testimony .col-sm-4 a{
+		font-style:  italic;
+}
+#testimony .col-sm-4 i{
+	color:yellow;
+	font-size: 16px;
+}
+
+#testimony .col-sm-4 i:last-child{
+	color:white;
+}
+
+/* end of styling of testimony division */
+
+/* styling of team members division */
+
+#team-members-wrapper{
+	padding:20px 0 10px 0;
+}
+#team-members-wrapper h1{
+ 	font-size:30px;
+ 	color:#002A4A;
+}
+#team-members-wrapper h1 span {
+font-weight: bold;
+}
+#team-members-wrapper p{
+	color:#4D4D4D; font-size: 16px;padding-bottom: 20px;
+}
+#team-members-wrapper .row{
+	padding-bottom: 30px;
+}
+#team-members-wrapper .col-sm-4{
+	margin-bottom: 10px;
+
+}
+#team-members-wrapper .col-sm-4 h4{
+	color:#002A4A;
+	font-weight: bold;
+}
+#team-members-wrapper .col-sm-4 p{
+	color:#4d4d4d;
+	font-size: 16px;
+}
+#team-members-wrapper .col-sm-4 a{
+	color:#F2EADD;
+	font-size: 16px;
+	background-color: #B9A163; 
+	padding:5px 30px;
+}
+#team-members-wrapper .col-sm-4 a span{
+	padding:0 5px 0 0;
+}
+
+iframe{
+	width:100%;
+}
+/* end of styling of team members division */
+
+/* footer styling */
+#footer-wrapper{
+	padding-top: 30px;
+	background-color: #2D3134;
+	opacity:0.9;
+}
+footer{
+	background-image: url('images/flower.jpg');
+	
+}
+footer nav{
+	margin:0!important;
+	
+}
+
+footer nav#social{
+	 padding-top: 30px;
+}
+footer nav#social p{
+	color:#B9A163;
+	font-size: 16px;
+}
+
+footer nav#social a{
+	padding-right: 5px;
+	color: white;
+}
+footer nav#social ul{
+ color:white;
+}
+footer nav#social ul li p{
+	color:#B9A163;font-size: 16px;
+}
+footer nav#social ul li p span{
+	padding-right:5px;
+}
+footer nav#social ul li p a{
+	margin-right: 10px;
+}
+#footer-wrapper p.tag{
+ 	color:#B9A163;
+ 	font-size: 16px;
+}
+
+#footer-wrapper p{
+	font-size: 16px;color: white;
+}
+footer nav ul li a{
+	color:white;
+	font-size: 16px;
+	border-right: 1px solid white;
+	padding: 0 45px 0 45px!important;
+
+}
+footer nav ul li:last-child a{
+	border:none;
+	padding-right:  0px!important;
+	}
+footer nav ul li:first-child a{
+	
+	padding-left:  0px!important;
+	}
+
+/* end of footer styling */
+
+/* media queries */
+/* media queries  for width:768 px */
+@media all and (max-width: 768px){
+
+.tax-division  h2:before{
+	    left: 15px;
+	    top:0px;
+	}
+
+nav#logo{
+	text-align: center;
+}
+
+
+.tel-number{
+	text-align: left;
+	
+	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-left:-15px;
+}
+.tel-number a{
+	font-size: 14px;
+}
+#main-menu a{
+		
+		border-left:none;
+}
+
+}
+
+/* end of media queries  for width:768 px */
+
+/* media queries  for width:468 px */
+
+@media all and (max-width: 468px){
+
+#main-menu a{
+		
+		border-left:none;
+}
+
+nav#logo{
+	text-align: center;
+}
+
+#logo ul{
+	margin:0;
+}
+
+footer nav#social p{
+	font-size: 14px;
+}
+
+footer nav#social ul li p{
+	font-size: 14px;
+}
+
+form a{
+	padding: 3px 10px;
+}
+#form-wrapper .tel-text p span{
+	font-size:18px;
+	
+}
+#banner #wrapper .heading h2{
+	font-size: 25px;
+}
+
+}
+
+/* end of media queries  for width:468 px */
+
+/* media queries  for width:1198 px */
+
+@media all and (max-width: 1199px){
+
+footer{
+	margin:0;
+}
+	
+footer nav ul li a{
+	padding: 0 20px 0 20px!important;
+
+}
+#main-menu{
+padding: 5px 10px;
+}
+#main-menu a{
+padding: 5px 15px;
+font-size: 14px;
+}
+.tel-number{
+	text-align: left;
+}
+.tel-number a{
+	font-size: 13px;
+ padding: 7px;
+
+}
+
+}
+/* end of media queries  for width:1199 px */
+
+/* media queries  for width:986 px */
+
+@media all and (max-width: 986px){
+
+footer{
+		margin:0;
+	}
+
+footer nav ul li a{
+	padding: 0 9px 0 9px!important;
+	font-size: 14px;
+}
+
+footer nav ul li:last-child a{
+	border:none;
+	padding-right:  9px!important;
+}
+
+footer nav ul li:first-child a{
+	padding-left:  9px!important;
+}
+
+#main-menu a{
+		border:none;
+}
+
+#logo ul{
+	margin:0;
+}
+
+#main-menu{
+padding: 5px 10px;
+}
+
+#main-menu a{
+padding: 3px 5px;
+font-size: 12px;
+border-left: none;
+}
+
+#main-menu nav ul li:last-child a{
+	font-size: 12px;
+	padding: 3px 10px;
+	margin-left: 5px;
+}
+
+#logo ul li a{
+font-size: 16px;
+}
+
+#logo ul li a#tel
+{
+font-size: 16px;
+}
+	
+#logo ul{
+	margin-top:15px;
+}
+
+
+}
+@media all and (min-width:769px) and (max-width: 986px){
+
+.tel-number a{
+	font-size: 12px;
+	padding: 10px;
+}
+
+}
+/* end of media queries  for width:986 px */
+
+/* end of media queries */
